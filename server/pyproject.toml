@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = "Server side of Aura messenger"
+authors = ["SciBourne <bourne-sci-hack@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.2"
+pydantic = "^2.9.2"
+sqlalchemy = "^2.0.36"
+psycopg2 = "^2.9.10"
+celery = "^5.4.0"
+alembic = "^1.13.3"
+versioned-fastapi = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
