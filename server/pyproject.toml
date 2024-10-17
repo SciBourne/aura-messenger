@@ -17,6 +17,9 @@ alembic = "^1.13.3"
 versioned-fastapi = "^1.0.2"
 
 
+[tool.poetry.group.dev.dependencies]
+fastapi-cli = "^0.0.5"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
